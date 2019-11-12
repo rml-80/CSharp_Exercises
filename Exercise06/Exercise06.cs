@@ -1,11 +1,14 @@
 ﻿using System;
 
-namespace Exercise01
+namespace Exercise06
 {
-    class Program
+    class Exercise06
     {
         static void Main(string[] args)
         {
+
+
+
             Console.WriteLine("Hello World!");
         }
     }
