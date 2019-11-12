@@ -6,7 +6,7 @@ namespace Exercise10
     {
         static void Main(string[] args)
         {
-
+            //Case1
 
             //while (true)
             //{
@@ -33,7 +33,7 @@ namespace Exercise10
 
             
             
-
+            //Case3
 
             //var color = "Black";
             //while (true)
