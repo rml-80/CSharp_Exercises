@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Exercise04\Exercise04.csproj" />
+  </ItemGroup>
+
 </Project>
