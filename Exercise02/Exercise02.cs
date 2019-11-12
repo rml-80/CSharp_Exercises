@@ -17,7 +17,7 @@ namespace Exercise02
 
         static DateTime getYesterday()
         {
-            return DateTime.Now.AddDays(-1);
+            return DateTime.Now.AddDays(-1); 
         }
 
         static DateTime getTomorrow()

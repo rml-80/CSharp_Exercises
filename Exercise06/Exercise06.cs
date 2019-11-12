@@ -24,7 +24,7 @@ namespace Exercise06
             Console.WriteLine("Multiplied: " + multi(first, second));
             Console.WriteLine("Divided: " + div(first, second));
 
-        }
+        } 
 
         static int sum(int x, int y)
         {

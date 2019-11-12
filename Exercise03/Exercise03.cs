@@ -11,7 +11,7 @@ namespace Exercise03
             Console.Write("Input your lastname: ");
             var lastName = Console.ReadLine();
 
-            Console.WriteLine($"{firstName} {lastName}");
+            Console.WriteLine($"{firstName} {lastName}"); 
         }
     }
 }

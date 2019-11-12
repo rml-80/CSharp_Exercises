@@ -19,7 +19,7 @@ namespace Exercise05
             txt = txt.Remove(txt.IndexOf("2"), txt.IndexOf("3") - 1);
 
             for (int i = 6; i < 11; i++)
-            {
+            { 
                 txt = txt.Insert((txt.Length - 1), $",{i}");
             }
 

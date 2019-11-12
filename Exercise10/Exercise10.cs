@@ -2,7 +2,7 @@
 
 namespace Exercise10
 {
-    class Exercise10
+    class Exercise10 
     {
         static void Main(string[] args)
         {
@@ -31,8 +31,8 @@ namespace Exercise10
 
             //Case2
 
-
-
+            
+            
 
 
             //var color = "Black";

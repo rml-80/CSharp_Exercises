@@ -28,7 +28,7 @@ namespace Exercise08
             return y;
         }
 
-        static double p10(double x)
+        static double p10(double x) 
         {
             double y = Math.Pow(x, 10);
 

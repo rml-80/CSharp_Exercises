@@ -7,7 +7,7 @@ namespace Exercise
         static void Main(string[] args)
         {
             var firstName = "Bob";
-            var lastName = "Halloween";
+            var lastName = "Halloween"; 
 
             Console.WriteLine(firstName + " " + lastName);
         }
