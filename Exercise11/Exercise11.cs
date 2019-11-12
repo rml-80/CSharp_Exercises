@@ -52,7 +52,7 @@ namespace Exercise11
                         }
                     }
 
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.BackgroundColor = ConsoleColor.Black; 
 
                     //Console.WriteLine(number);
                     break;
