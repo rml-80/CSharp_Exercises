@@ -39,7 +39,7 @@ namespace Exercise06
             return a - b;
         }
 
-        static int multi(int x,int y)
+        static int multi(int x, int y)
         {
             return x * y;
         }
