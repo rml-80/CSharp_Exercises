@@ -12,7 +12,6 @@ namespace Exercise08
             Console.WriteLine(square(number));
             Console.WriteLine(p2(number));
             Console.WriteLine(p10(number));
-
         }
 
         static double square(double x)
