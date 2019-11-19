@@ -19,14 +19,14 @@ namespace Exercise04
 
             string t = input.ToLower();
             t = char.ToUpper(t[0]) + t.Substring(1);
-            //var txt = input.Replace("quick", "brown")
+            t = t.Replace("quick", "brown")
             //                .Replace("Jumped", "jumped")
             //                .Replace("DOG", "dog")
             //                .Replace("Over", "over");
-            var txt = t.Insert(t.IndexOf("dog") - 1, " lazy");
+            t = t.Insert(t.IndexOf("dog") - 1, " lazy");
 
 
-            return txt;
+            return t;
         }
     } 
 }
