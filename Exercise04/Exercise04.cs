@@ -17,13 +17,13 @@ namespace Exercise04
         {
             string input = "The quick fox Jumped Over the DOG";
 
-            string t = input.ToLower();
-            t = char.ToUpper(t[0]) + t.Substring(1);
-            t = t.Replace("quick", "brown")
+            input = input.Replace("quick", "brown");
             //                .Replace("Jumped", "jumped")
             //                .Replace("DOG", "dog")
             //                .Replace("Over", "over");
-            t = t.Insert(t.IndexOf("dog") - 1, " lazy");
+            string t = input.ToLower();
+            t = char.ToUpper(t[0]) + t.Substring(1);
+            var txt = t.Insert(t.IndexOf("dog") - 1, " lazy");
 
 
             return t;
