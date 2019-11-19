@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Complete
+
+using System;
 
 namespace Exercise11
 {
@@ -10,6 +12,7 @@ namespace Exercise11
             {
                 Console.Write("Please input a number: ");
                 var number = int.Parse(Console.ReadLine());
+                Console.Clear();
 
                 if (number > 0)
                 {
@@ -52,7 +55,7 @@ namespace Exercise11
                         }
                     }
 
-                    Console.BackgroundColor = ConsoleColor.Black; 
+                    Console.BackgroundColor = ConsoleColor.Black;
 
                     //Console.WriteLine(number);
                     break;

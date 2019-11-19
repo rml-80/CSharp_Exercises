@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Completed
+
+using System;
 
 namespace Exercise04
 {
@@ -15,11 +17,14 @@ namespace Exercise04
         {
             string input = "The quick fox Jumped Over the DOG";
 
-            var txt = input.Replace("quick", "brown")
-                            .Replace("Jumped", "jumped")
-                            .Replace("DOG", "dog")
-                            .Replace("Over", "over");
-            txt = txt.Insert(txt.IndexOf("dog") - 1, " lazy");
+            string t = input.ToLower();
+            t = char.ToUpper(t[0]) + t.Substring(1);
+            //var txt = input.Replace("quick", "brown")
+            //                .Replace("Jumped", "jumped")
+            //                .Replace("DOG", "dog")
+            //                .Replace("Over", "over");
+            var txt = t.Insert(t.IndexOf("dog") - 1, " lazy");
+
 
             return txt;
         }
